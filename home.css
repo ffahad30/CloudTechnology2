@@ -1,0 +1,142 @@
+html{
+
+}
+
+.navbar{
+    position: absolute;
+    width: 1208px;
+    height: 108px;
+    left: 113px;
+    top: 41px;
+
+    background: #FFFFFF;
+}
+#logo{
+    position: absolute;
+    width: 238.86px;
+    height: 44px;
+    left: 0px;
+    top: 34px;
+
+
+    background: url(logo.png)
+}
+
+#home{
+    position: absolute;
+    width: 183.91px;
+    height: 34px;
+    left: 57px;
+    top: 26px;
+
+    font-family: Strait;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.8182px;
+    line-height: 140.62%;
+    /* or 39px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+.navbar-content{
+    position: absolute;
+    width: 910px;
+    height: 79px;
+    left: 309px;
+    top: 13px;
+
+
+}
+#about {
+    position: absolute;
+    width: 183.91px;
+    height: 34px;
+    left: 233px;
+    top: 26px;
+
+    font-family: Strait;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.8182px;
+    line-height: 140.62%;
+    /* or 39px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+
+#topics{
+    position: absolute;
+    width: 183.91px;
+    height: 34px;
+    left: 358px;
+    top: 26px;
+
+    font-family: Strait;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.8182px;
+    line-height: 140.62%;
+    /* or 39px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#projects {
+    position: absolute;
+    width: 183.91px;
+    height: 34px;
+    left: 502px;
+    top: 26px;
+
+    font-family: Strait;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27.8182px;
+    line-height: 140.62%;
+    /* or 39px */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+.contact-button{
+    position: absolute;
+    width: 178.91px;
+    height: 52.36px;
+    left: 4.36px;
+    top: 0px;
+    color: white;
+
+    background: #374A76;
+    border-radius: 61.0909px;
+
+    position: absolute;
+    width: 173.09px;
+
+    left: 689px;
+    top: 11px;
+    border:none;
+    font-family: Strait;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26.1818px;
+    line-height: 140.62%;
+    /* or 37px */
+
+    text-align: center;
+}
