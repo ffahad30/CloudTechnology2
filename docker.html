@@ -1,10 +1,134 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: #e6e6e6">
 <head>
     <meta charset="UTF-8">
-    <title>Docker</title>
+    <title>Docker Tutorial</title>
 </head>
 <body>
-This is docker page
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/0d79df1df8.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&family=Strait&family=Sulphur+Point&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="docker.css">
 </body>
+
+<body>
+<div class="empty">
+
+</div>
+
+
+
+<div class="container-fluid">
+    <div class="topnav" id="myTopnav" style="background-color: #e6e6e6">
+
+        <div class="headerright">
+            <a href="https://ffahad30.github.io/CloudTechnology2/home.html">HOME</a>
+            <a href="https://ffahad30.github.io/CloudTechnology2/about.html">ABOUT</a>
+            <div class="dropdown1">
+                <button class="dropbtn1">TOPICS
+                </button>
+                <div class="dropdown-content1">
+                    <a href="https://ffahad30.github.io/CloudTechnology2-DataPrivacy/vc.html">Virtualization and Containerization</a>
+                    <a href="https://ffahad30.github.io/CloudTechnology2/data.html">Data Center</a>
+                    <a href="https://ffahad30.github.io/CloudTechnology2/kd.html">Kubernetes and Docker</a>
+                    <a href="https://ffahad30.github.io/CloudTechnology2/docker.html">Docker Tutorial</a>
+                </div>
+            </div>
+            <div class="dropdown2">
+                <button class="dropbtn2">PROJECTS
+                </button>
+                <div class="dropdown-content2">
+                    <a href="https://github.com/ffahad30/OnlineMarketing-DataPrivacy">Online Marketing & Data Privacy</a>
+                    <a href="https://ffahad30.github.io/HowTheInternetWorks/index">How The Internet Works</a>
+                </div>
+            </div>
+            <div class="dropdown3">
+                <button class="dropbtn3">CONTACT US
+                </button>
+                <div class="dropdown-content3">
+                    <a href="https://www.linkedin.com/in/fizah-fahad-3183a61b7/">Contact Fizah</a>
+                    <a href="https://www.linkedin.com/in/loni-alnor-b287711b1/">Contact Loni</a>
+                </div>
+            </div>
+        </div>
+        <a class="logo" href="https://ffahad30.github.io/CloudTechnology2/home.html"><img src="images/logo2.png" style="width:175px; height:30px;padding: 7px 10px;" alt="logo"></a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+
+<h1>Docker Tutorial <i class="fas fa-pencil-alt" style="color: rgba(55, 74, 118, 0.88);"></i> <i class="fas fa-server" style="color: rgba(55, 74, 118, 0.88);"></i></h1>
+
+<div class="content">
+    <div class=".container">
+        <div class="column side">
+            <p>
+                <img style="float: center;padding-top: 100px;" src="https://images.pexels.com/photos/160107/pexels-photo-160107.jpeg" alt="image" width="100%" height="300px">
+            </p>
+            <p>
+                <a href=https://ffahad30.github.io/CloudTechnology2/about.html>
+                    <button class="calltoaction2">FIND OUT THE WHO, WHAT, AND WHY, OF THIS WEBSITE</button>
+                </a>
+            </p>
+        </div>
+    </div>
+    <div class="column middle">
+        <h2>How to Use Docker</h2>
+
+        <p>First, you need to install Docker to your computer. Click  <a href=https://www.docker.com/products/docker-desktop">here </a>to download docker. Docker supports Ubuntu, Windows, and Mac. Then, you have to pull an Ubuntu image from Dockerhub. To do that you can use the command docker pull ubuntu.  </p>
+        <p>After you exit the Ubuntu container you have to commit a container in order to create a new Docker image; to do this you can use the command docker <em> ps -a </em>, then you have to commit it to the container ID and name the image.
+
+        </p>
+        <p>Then, you have to share data between the container and the host. Type in: <em>docker run -it -p </em>an IP address then the host directory followed by <em>/bin /bash</em>. Then you use the vi Editor to create an html file that will be shown on the website you put into the directory.
+        </p>
+        <p>Lastly, start the apache service using <em>/etc/init.d/apache2</em> restart. Then on your browser input the IP address and you should see your website.
+        </p>
+
+    </div>
+</div>
+
+
+<div class="footer">
+    <div class="row">
+        <div class="column-1">
+            <p>IS 117 Fall 2020</p>
+        </div>
+        <div class="column-2">
+            <p>Alnor & Fahad 2020 ©</p>
+        </div>
+        <div class="column-3">
+            <div class="dropup">
+                <button class="dropbtn"><i class="fab fa-github-square"></i></button>
+                <div class="dropup-content">
+                    <a href="https://github.com/ffahad30">Fizah's GitHub</a>
+                    <a href="https://github.com/lonialnor">Loni's GitHub</a>
+                </div>
+            </div>
+            <div class="dropup">
+                <button class="dropbtn"><i class="fab fa-linkedin"></i></button>
+                <div class="dropup-content">
+                    <a href="https://www.linkedin.com/in/fizah-fahad-3183a61b7/">Fizah's LinkedIn</a>
+                    <a href="https://www.linkedin.com/in/loni-alnor-b287711b1/">Loni's LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div></body>
 </html>
