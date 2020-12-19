@@ -405,6 +405,7 @@ html{
     height: 330px;
     top:2896px;
     width:100%;
+    left:0;
 
 
 
@@ -457,6 +458,7 @@ html{
     line-height: 98.62%;
     /* or 71px */
     text-transform: uppercase;
+    margin-top:85px;
 
     color: #34466F;
 }
@@ -550,6 +552,7 @@ html{
     width: 33.33%;
     padding: 10px;
     height: 300px; /* Should be removed. Only for demonstration */
+    padding-left: 17px;
 }
 
 /* Clear floats after the columns */
