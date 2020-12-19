@@ -24,7 +24,7 @@
 html{
     overflow-x:hidden;
     width: 1440px;
-    height: 4000px;
+
     scroll-behavior: smooth;
 
     background: linear-gradient(180deg, #FFFFFF 3.12%, rgba(224, 122, 95, 0.5) 16.67%, rgba(55, 74, 118, 0.62) 31.77%, #FFFFFF 75.52%);
@@ -199,12 +199,12 @@ html{
 
     position: relative;
     width: 1440px;
-    height: 987.5px;
+    height: 3562px;
     display:block;
 
     position: relative;
     width: 1440px;
-    height: 4062px;
+
 
 
 }
