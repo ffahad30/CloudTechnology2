@@ -250,7 +250,6 @@ p{
     left: 0;
     bottom: 0;
     background: #34466F;
-    margin-top: 5%;
 }
 .column-1 p{
     position: absolute;
@@ -267,7 +266,7 @@ p{
 .column-2 p{
     position: absolute;
     width: 50%;
-    left: 618.49px;
+    left: 43%;
     font-family: "Quicksand", sans-serif;
     font-style: normal;
     font-weight: normal;
